@@ -1,0 +1,124 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 14px;
+  transition: 2s background-color;
+}
+
+@screen lg {
+  body {
+    font-size: 28px;
+  }
+  
+}
+
+@layer utilities {
+
+  .h-screen {
+    height: calc(var(--vh)*100);
+  }
+
+  :root {
+    --site-padding: 1em;
+  }
+
+  @screen lg {
+    :root {
+      --site-padding: 2rem;
+    }
+  }
+
+  @screen 2xl {
+    :root {
+      --site-padding: 3rem;
+    }
+  }
+
+  .p {
+    padding: var(--site-padding);
+  }
+
+  .pt {
+    padding-top: var(--site-padding);
+  }
+
+  .pb {
+    padding-bottom: var(--site-padding);
+  }
+
+  .pl {
+    padding-left: var(--site-padding);
+  }
+
+  .pr {
+    padding-right: var(--site-padding);
+  }
+
+  .px {
+    padding-left: var(--site-padding);
+    padding-right: var(--site-padding);
+  }
+
+  .py {
+    padding-top: var(--site-padding);
+    padding-bottom: var(--site-padding);
+  }
+
+  .m {
+    margin: var(--site-padding);
+  }
+
+  .mt {
+    margin-top: var(--site-padding);
+  }
+
+  .mb {
+    margin-bottom: var(--site-padding);
+  }
+
+  .ml {
+    margin-left: var(--site-padding);
+  }
+
+  .mr {
+    margin-right: var(--site-padding);
+  }
+
+  .mx {
+    margin-left: var(--site-padding);
+    margin-right: var(--site-padding);
+  }
+
+  .my {
+    margin-top: var(--site-padding);
+    margin-bottom: var(--site-padding);
+  }
+
+  .grid:not(.gap-0) {
+    gap: var(--site-padding);
+  }
+
+  .text-h1 {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+
+  @screen lg {
+    .text-h1 {
+      font-size: 3em;
+      line-height: 1.2;
+    }
+  }
+
+}
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
