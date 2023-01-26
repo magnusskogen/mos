@@ -1,0 +1,10 @@
+{% extends '_layout/master' %}
+{% block content %}
+
+<div class="container-px">    
+    {% for item in entry.contentMatrix %}
+        {% include '_matrix/' ~ item.type %}
+    {% endfor %}
+</div
+    
+{% endblock %}

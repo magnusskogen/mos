@@ -1,0 +1,383 @@
+field: a1ec3624-bc4f-47d1-857a-94c9ff8a8e7f # Content
+fieldLayouts:
+  f0944ae7-1512-4753-947d-ed299c1fc006:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7613f6d5-ac53-488f-bebe-62acc43a03b1 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2bae9d14-89f4-48cb-a609-1d24a61b9acf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b708610d-ccf5-496a-9992-9d47cd1549f4 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5e010e3-5e5b-46db-99c6-801230b4bfdf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c60dd0e0-e416-433e-8cf4-028b3bd7f53a # Text size
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4c476b3a-c401-40db-b3f4-5b104ac988a8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: faceca38-029d-42a8-8393-04eb8f4a8858 # Table
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd2daf6d-ec67-4552-9362-7ecb42d53655
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1f34f1be-77f8-4537-9722-df250ee644ca # Additional table
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e3ccd5a1-6d9e-4733-80d4-3803735c9e1a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a0cb6b10-dc55-4d74-8e57-6a3ace1b3264 # Space above
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ca7372f8-2642-4fc3-bc61-9a62f1588fa3
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: cfce8a20-cebf-434d-9b79-e2eed0e44d78 # Space below
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dbbbbf1c-bcdf-447f-a802-2a4e832e8d8d
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: 250622c4-e4cb-4383-9483-97b71cd38903
+        userCondition: null
+fields:
+  1f34f1be-77f8-4537-9722-df250ee644ca: # Additional table
+    columnSuffix: jnyupave
+    contentColumnType: text
+    fieldGroup: null
+    handle: additionalTable
+    instructions: 'If rows are added here, the layout will switch to two tables next to each other, and "heading" and "text" will be ignored.'
+    name: 'Additional table'
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Column 1'
+                -
+                  - handle
+                  - column1
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Column 2'
+                -
+                  - handle
+                  - column2
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults: null
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  7613f6d5-ac53-488f-bebe-62acc43a03b1: # Heading
+    columnSuffix: arjjupwj
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a0cb6b10-dc55-4d74-8e57-6a3ace1b3264: # Space above
+    columnSuffix: eehxenri
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceAbove
+    instructions: null
+    name: 'Space above'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  b708610d-ccf5-496a-9992-9d47cd1549f4: # Text
+    columnSuffix: tswcatpj
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  c60dd0e0-e416-433e-8cf4-028b3bd7f53a: # Text size
+    columnSuffix: wjkuhfsi
+    contentColumnType: string
+    fieldGroup: null
+    handle: size
+    instructions: null
+    name: 'Text size'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - lg
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - md
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  cfce8a20-cebf-434d-9b79-e2eed0e44d78: # Space below
+    columnSuffix: sylheqkm
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceBelow
+    instructions: null
+    name: 'Space below'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  faceca38-029d-42a8-8393-04eb8f4a8858: # Table
+    columnSuffix: ionmiriw
+    contentColumnType: text
+    fieldGroup: null
+    handle: table
+    instructions: null
+    name: Table
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Column 1'
+                -
+                  - handle
+                  - column1
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+          -
+            - col2
+            -
+              __assoc__:
+                -
+                  - heading
+                  - 'Column 2'
+                -
+                  - handle
+                  - column2
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+            -
+              - col2
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+handle: textTwoColumns
+name: 'Text — Two columns'
+sortOrder: 3

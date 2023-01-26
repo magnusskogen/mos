@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: 'no'
+name: MOS
+primary: true
+siteGroup: 820b32a6-70e6-4771-9a0e-37b977c2ab65 # MOS
+sortOrder: 1

@@ -1,0 +1,189 @@
+field: a1ec3624-bc4f-47d1-857a-94c9ff8a8e7f # Content
+fieldLayouts:
+  5ec8e30b-6a1b-43a4-bb0f-4379d9566191:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f325f04c-aa3f-467e-b7b5-39eb31038bfb # Media
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: acab9af3-984b-488a-b2ac-97b375f45533
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6f74f38e-7ad4-4eab-9323-d00d464d07cb # Space above
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f3fb8e2f-aa9a-4796-b4e7-dc1993323d3f
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 99633da4-d9dc-42bb-aefb-0d0b6c5f766e # Space-below
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77973c22-1ac6-42e1-9e2a-54c51df6034f
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: a3fb693c-8afa-4de5-8dae-337f3dfcd073
+        userCondition: null
+fields:
+  6f74f38e-7ad4-4eab-9323-d00d464d07cb: # Space above
+    columnSuffix: hxinaxwn
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceAbove
+    instructions: null
+    name: 'Space above'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  99633da4-d9dc-42bb-aefb-0d0b6c5f766e: # Space-below
+    columnSuffix: teetraoi
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceBelow
+    instructions: null
+    name: Space-below
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  f325f04c-aa3f-467e-b7b5-39eb31038bfb: # Media
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: asset
+    instructions: 'Add as many as you want, up to four. Double click the asset to add name and caption.'
+    name: Media
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:e342c5ac-0f5e-4aaa-b4b4-17dc7dab6a10' # Uploads
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 4
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:e342c5ac-0f5e-4aaa-b4b4-17dc7dab6a10' # Uploads
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: 'Add media'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: assets
+name: Media
+sortOrder: 1

@@ -1,0 +1,118 @@
+dateModified: 1674732538
+email:
+  fromEmail: magnus@skogen.io
+  fromName: MOS
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      bucket: $DO_BUCKET
+      contentDisposition: ''
+      endpoint: $DO_ENDPOINT
+      expires: ''
+      keyId: $DO_ACCESS_KEY
+      region: $DO_REGION
+      secret: $DO_SECRET_KEY
+      subfolder: $DO_FOLDER
+    type: vaersaagod\dospaces\Fs
+    url: $DO_PRIMARY_URL
+meta:
+  __names__:
+    0c82df61-10c2-44da-821a-bc9a07acdb6a: Text # Text
+    1a4bc58f-e962-4972-922d-d834e5d8cc86: 'Background color' # Background color
+    1f34f1be-77f8-4537-9722-df250ee644ca: 'Additional table' # Additional table
+    2bef46e1-8a80-42ff-acfb-70b6b982e238: 'Marquee position' # Marquee position
+    03b2486a-ac98-4cd8-b645-a61ad55f5f9b: 'Space above' # Space above
+    4bd8b39f-567c-4709-ac0c-a42ae50719b5: 'Accordion background color' # Accordion background color
+    4cb15407-dedb-47f8-ab22-a7c629472958: 'Text — One column' # Text — One column
+    5d5b7545-4043-4e21-b147-8dbeb1e9f814: 'Space below' # Space below
+    05d9fdbb-1e5a-4ace-98de-68ff06446396: 'Space below' # Space below
+    5f92a092-8df9-4ca7-8182-fd92e0286694: Employees # Employees
+    5fba8495-8195-4648-97fc-fdb9259069cf: 'Marquee title' # Marquee title
+    6f74f38e-7ad4-4eab-9323-d00d464d07cb: 'Space above' # Space above
+    7bc86207-b865-4464-9b97-2b5850316dff: Name # Name
+    8c7f7396-6182-407a-81bc-76018c96672f: 'Marquee words' # Marquee text
+    8f02d2fa-fa07-49d7-ae80-b3f2fb1aa390: 'Additional list — Heading' # Additional list — Heading
+    12cc6622-ac89-4a7b-a6d8-10d1f01b9c38: Common # Common
+    19f6877d-061b-475a-97b6-479ae9c99ca4: Content # Content
+    24a3af64-816c-4e20-bef4-790040774f5c: Caption # Caption
+    30e19d36-2f23-4832-9211-368d98c99186: 'Space below' # Space below
+    32a24a6c-e374-40d6-bbef-da0e44a9b1ef: Projects # Projects
+    33d50610-b911-4a82-913b-88cfd9b65951: 'Space below' # Space below
+    34f01359-c67b-48bf-9473-761b3b5a7a57: 'Main media' # Main media
+    51c93896-8bcd-4de8-b8aa-858eb0ce8c4e: Text # Text
+    59fda772-0b79-4fde-8bb4-e0ec08d68db5: 'List — Text' # List — Text
+    63a3bac7-3a9f-408c-8cd6-967febd07e83: Table # Table
+    078d9919-f734-4709-91e3-9d24beec40b4: 'Space above' # Space above
+    83b1238e-e61c-4182-a7c7-d685d7110d25: Media # Media
+    85ff65f6-38db-4f1d-92fc-b2cf8c0b2b41: 'Space above' # Space above
+    87f18b98-4dea-471f-bf04-5bdf68ddb4f7: 'Space above' # Space above
+    820b32a6-70e6-4771-9a0e-37b977c2ab65: MOS # MOS
+    958f85a1-fd83-46e3-94fe-6859ebbca3cc: Heading # Heading
+    4758ca68-161b-41b7-a10f-c52568a27b8a: 'Text size' # Text size
+    5185dcbc-35f8-4306-8256-e0279fb9c2f7: 'Text size' # Text size
+    7613f6d5-ac53-488f-bebe-62acc43a03b1: Heading # Heading
+    8729bbc4-30be-4411-9dfb-6636e1a4e38b: 'Text position' # Text position
+    8906d457-7b9c-4470-815f-6340084519c6: 'Media position' # Media position
+    9421ebf4-df21-4045-9527-f5d26732feb8: Homepage # Homepage
+    59641b0b-3e6c-4ec9-892f-00c095428b24: Work # Work
+    99633da4-d9dc-42bb-aefb-0d0b6c5f766e: Space-below # Space-below
+    6016999e-5ebd-415c-b0af-572d5c11af8e: 'Text with media' # Text with media
+    a0cb6b10-dc55-4d74-8e57-6a3ace1b3264: 'Space above' # Space above
+    a1ec3624-bc4f-47d1-857a-94c9ff8a8e7f: Content # Content
+    aa3d26ce-946c-4337-813a-3ae1f4f89cc0: employees # employees
+    adf11031-4df5-4226-a739-830b7317e754: Heading # Heading
+    ae566d8e-0c18-42ea-9e15-8791afd6b2fd: 'Text size' # Text size
+    b9f68b28-3069-46ca-9d0c-ab81ef520d89: Default # Default
+    b941e9f2-34fc-441f-acb6-2bf103f4c5d2: Table # Table
+    b60912c8-f2c7-4157-a7c2-37340463f3c4: Default # Default
+    b708610d-ccf5-496a-9992-9d47cd1549f4: Text # Text
+    bbcec9a7-7dfb-4114-b95b-dc2aab867126: Text # Text
+    c5cff6ce-ee1d-41f7-86de-ef93854a7c5a: Position # Position
+    c60dd0e0-e416-433e-8cf4-028b3bd7f53a: 'Text size' # Text size
+    c71ba68f-4d87-4fd4-8b3c-918f136caae1: Heading # Heading
+    c837520c-7804-43ac-a027-eeef6e0f2940: MOS # MOS
+    cfce8a20-cebf-434d-9b79-e2eed0e44d78: 'Space below' # Space below
+    d1da56bc-3867-4318-87ac-a08af0cc0ab4: 'Text — Two columns' # Text — Two columns
+    d9cd8118-f708-4821-9196-4f2d0823ba42: Media # Media
+    dc6e7a84-7e44-477a-8f4f-b7d5cc4718b1: 'Space below' # Space below
+    e3d2762c-c3e9-410f-b76b-030288c5c744: Projects # Projects
+    e5af27e1-0304-4b80-bb07-44371b1d3b67: Default # Default
+    e247b577-0042-4950-bbbf-3a779a1d40ae: Employees # Employees
+    e342c5ac-0f5e-4aaa-b4b4-17dc7dab6a10: Uploads # Uploads
+    e913fe4b-d2cd-4e5c-a989-e293a573a9cd: 'Text with marquee' # Text with marquee
+    ea850952-fced-4d31-a96a-4d52453e95c1: 'Space above' # Space above
+    f325f04c-aa3f-467e-b7b5-39eb31038bfb: Media # Media
+    faceca38-029d-42a8-8393-04eb8f4a8858: Table # Table
+    fd8870af-c6c7-4bd6-9e81-a265cef52369: Homepage # Homepage
+plugins:
+  colour-swatches:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.4.3
+  dospaces:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: MOS
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

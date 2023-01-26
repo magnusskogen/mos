@@ -1,0 +1,457 @@
+{% extends '_layout/master' %}
+{% block content %}
+
+<div class="container-px">
+   
+   <div class="grid grid-cols-12 pb-lg">
+        <div class="col-span-12">
+            {% include '_components/box' with { caption: 'lg:text-md', classes: 'aspect-[8/5]' } %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg">
+        <div class="col-span-12 lg:col-span-6">
+            {% include '_components/box' with { caption: 'lg:text-md', classes: 'aspect-[4/5]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-6">
+            {% include '_components/box' with { caption: 'lg:text-md', classes: 'aspect-[4/5]' } %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg">
+        <div class="col-span-12 lg:col-span-6">
+            {% include '_components/box' with { caption: 'lg:text-md', classes: 'aspect-[5/4]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-6">
+            {% include '_components/box' with { caption: 'lg:text-md', classes: 'aspect-[5/4]' } %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg">
+        <div class="col-span-12 lg:col-span-6">
+            {% include '_components/box' with { caption: 'lg:text-md', classes: 'aspect-[4/5]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-6">
+            {% include '_components/box' with { caption: 'lg:text-md', classes: 'aspect-[5/4]' } %}
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg">
+        <div class="col-span-12 lg:col-span-4">
+            {% include '_components/box' with { caption: true, classes: 'aspect-[4/5]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-4">
+            {% include '_components/box' with { caption: true, classes: 'aspect-[5/4]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-4">
+            {% include '_components/box' with { caption: true, classes: 'aspect-[5/4]' } %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg">
+        <div class="col-span-12 lg:col-span-3">
+            {% include '_components/box' with { caption: true, classes: 'aspect-[4/5]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-3">
+            {% include '_components/box' with { caption: true, classes: 'aspect-[5/4]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-3">
+            {% include '_components/box' with { caption: true, classes: 'aspect-[5/4]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-3">
+            {% include '_components/box' with { caption: true, classes: 'aspect-[4/5]' } %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg">
+        <div class="col-span-12 lg:col-span-4">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+            <div class="p bg-peach text-sm">
+                <div class="flex justify-between pb-lg">
+                    <div>Name</div>
+                    <div>Title</div>
+                </div>
+                <div class="flex flex-col space-y-1">
+                    <div class="flex space-x-4">
+                        <div>(1)</div>
+                        <div>Phone number</div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <div>(2)</div>
+                        <div>Email address</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-8 lg:col-start-3 text-md lg:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-8 lg:col-start-3 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-md lg:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-md lg:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-8 lg:col-start-1 text-md lg:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-span-12 lg:col-span-3 lg:col-start-10">
+            {% include '_components/clients' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-2 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-span-12 lg:col-span-3 lg:col-start-9">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-3 lg:col-start-1">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-8 lg:col-start-5 text-md lg:text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-3 lg:col-start-2">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+        <div class="col-span-12 lg:col-span-6 lg:col-start-6 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>        
+    </div>
+
+    
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+         <div class="col-span-12 lg:col-span-7 lg:col-start-6 text-md pb-lg lg:text-lg lg:order-2">
+            <div class="uppercase mb-2">Title</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-span-12 lg:col-span-4 lg:col-start-1 text-sm lg:text-md lg:order-1">
+            <div class="grid grid-cols-4">
+                <div class="col-span-1">List:</div>
+                <div class="col-span-3">
+                    <ul class="flex flex-col space-y-2">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+   
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+         <div class="col-span-12 lg:col-span-7 lg:col-start-6 text-md pb-lg lg:order-2">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-span-12 lg:col-span-4 lg:col-start-1 text-sm lg:text-md lg:order-1">
+            <div class="grid grid-cols-4">
+                <div class="col-span-1">List:</div>
+                <div class="col-span-3">
+                    <ul class="flex flex-col space-y-2">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+
+        <div class="col-span-12 lg:col-span-6 text-md lg:text-lg">
+            <div class="grid grid-cols-3 grid-sm">
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+            </div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 text-md lg:text-lg -mt-2 lg:-mt-0">
+            <div class="grid grid-cols-3 grid-sm">
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-lg flex flex-col justify-between">
+            <div class="uppercase">Title</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+    </div>
+
+     <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-lg flex flex-col justify-between">
+            <div class="uppercase">Title</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+        
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-lg flex flex-col justify-end">
+            <div class="grid grid-cols-3 grid-sm">
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-lg flex flex-col justify-end">
+            <div class="grid grid-cols-3 grid-sm">
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+            </div>
+        </div>
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[4/5]' } %}
+        </div>
+    </div>
+    
+
+
+
+
+
+        <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[5/4]' } %}
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[5/4]' } %}
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[5/4]' } %}
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-lg flex flex-col justify-between">
+            <div class="uppercase">Title</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[5/4]' } %}
+        </div>
+    </div>
+
+     <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-md">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[5/4]' } %}
+        </div>
+    </div>
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-lg flex flex-col justify-between">
+            <div class="uppercase">Title</div>
+            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+        </div>
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[5/4]' } %}
+        </div>
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[5/4]' } %}
+        </div>
+        
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-lg flex flex-col justify-end">
+            <div class="grid grid-cols-3 grid-sm">
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="grid grid-cols-12 pb-lg py-lg">
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-lg flex flex-col justify-end">
+            <div class="grid grid-cols-3 grid-sm">
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+                <div class="col-span-1">(Lorem)</div>
+                <div class="col-span-2">Dolor sit amet</div>
+            </div>
+        </div>
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8 text-lg">
+            {% include '_components/box' with { caption: false, classes: 'aspect-[5/4]' } %}
+        </div>
+    </div>
+    
+
+
+</div>
+
+{% endblock %}

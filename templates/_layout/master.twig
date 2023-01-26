@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>MOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <style type="text/css">
+        @font-face {
+            font-family: Lausanne;
+            src: url(/assets/Lausanne-300.woff) format('woff'),
+            url(/assets/Lausanne-300.woff2) format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+
+    <link href="/assets/styles.css?{{ now | date('U') }}" rel="stylesheet">
+
+</head>
+<body class="bg-light-beige">
+
+	<div class="flex flex-col min-h-screen">
+		<header class="px-sm lg:px py">
+			<div class="flex justify-between text-menu">
+				<a href="/" class="group"><span class="group-hover:opacity-100 opacity-0 hidden lg:inline">(</span>MOS<span class="group-hover:opacity-100 opacity-0 hidden lg:inline">)</span></a>
+				<a href="/" class="lg:hidden"><span class="group-hover:opacity-100 opacity-0 hidden lg:inline">(</span>Menu<span class="group-hover:opacity-100 opacity-0 hidden lg:inline">)</span></a>
+				<a href="/work" class="hidden lg:block group"><span class="group-hover:opacity-100 opacity-0">(</span>Work<span class="group-hover:opacity-100 opacity-0">)</span></a>
+				<a href="/about" class="hidden lg:block group"><span class="group-hover:opacity-100 opacity-0">(</span>About<span class="group-hover:opacity-100 opacity-0">)</span></a>
+				<a href="/contact" class="hidden lg:block group"><span class="group-hover:opacity-100 opacity-0">(</span>Contact<span class="group-hover:opacity-100 opacity-0">)</span></a>
+			</div>
+		</header>
+
+		<div class="flex-1 pt">
+			{% block content %}{% endblock %}
+		</div>
+
+		<footer class="px-sm lg:px py">
+			<div class="flex justify-between text-menu items-center">
+				<a href="/" class="group"><span class="group-hover:opacity-100 opacity-0 hidden lg:inline">(</span>2023<span class="group-hover:opacity-100 opacity-0 hidden lg:inline">)</span></a>
+				<a href="/" class="hidden lg:block group"><span class="group-hover:opacity-100 opacity-0">(</span>Instagram<span class="group-hover:opacity-100 opacity-0">)</span></a>
+				<a href="/" class="hidden lg:block group"><span class="group-hover:opacity-100 opacity-0">(</span>Facebook<span class="group-hover:opacity-100 opacity-0">)</span></a>
+				<a href="/" class="lg:flex group">
+				<svg class="w-8 h-8" width="725" height="643" viewBox="0 0 725 643" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_41_924)">
+<path d="M296.52 0H214.51V193.85H296.52V0Z" fill="black"/>
+<path d="M510 86H428V108H510V86Z" fill="black"/>
+<path d="M77.45 284.32C77.45 456.64 216.86 550.54 362.07 550.54C507.28 550.54 646.68 456.64 646.69 284.32H724.14C724.14 507.95 556.66 642.51 362.08 642.51C167.5 642.51 0 507.94 0 284.32H77.45Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_41_924">
+<rect width="724.13" height="642.5" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+			</div>
+		</footer>
+	
+	</div>
+
+    <script type="text/javascript" src="/assets/scripts.js?{{ now | date('U') }}"></script>
+
+</body>
+</html>

@@ -1,0 +1,307 @@
+field: a1ec3624-bc4f-47d1-857a-94c9ff8a8e7f # Content
+fieldLayouts:
+  a4f5a5d8-a283-47c5-9d26-6e1a0d5ca0b7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: adf11031-4df5-4226-a739-830b7317e754 # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 205dc36c-7971-4861-9188-3574ce8a0c07
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: bbcec9a7-7dfb-4114-b95b-dc2aab867126 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: adbe4901-f33e-49bf-87e8-5095625c03bb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ae566d8e-0c18-42ea-9e15-8791afd6b2fd # Text size
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4f664a64-0c5b-4a39-8cdc-6bad6512c500
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: c5cff6ce-ee1d-41f7-86de-ef93854a7c5a # Position
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3a41faa1-4489-4a32-a24d-1b33cdf8e756
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 078d9919-f734-4709-91e3-9d24beec40b4 # Space above
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77b63f84-7a96-4f49-b828-8582d9fc5bb6
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 05d9fdbb-1e5a-4ace-98de-68ff06446396 # Space below
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bcafe7b6-f885-4b89-a6ad-d6f0e8dd1579
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: acbb23ef-5d12-4b8d-be3f-a3831e07431f
+        userCondition: null
+fields:
+  05d9fdbb-1e5a-4ace-98de-68ff06446396: # Space below
+    columnSuffix: ujstfidg
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceBelow
+    instructions: null
+    name: 'Space below'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  078d9919-f734-4709-91e3-9d24beec40b4: # Space above
+    columnSuffix: gelwrvlu
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceAbove
+    instructions: null
+    name: 'Space above'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  adf11031-4df5-4226-a739-830b7317e754: # Heading
+    columnSuffix: flygmjcx
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ae566d8e-0c18-42ea-9e15-8791afd6b2fd: # Text size
+    columnSuffix: qmklchbo
+    contentColumnType: string
+    fieldGroup: null
+    handle: size
+    instructions: null
+    name: 'Text size'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - lg
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - md
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  bbcec9a7-7dfb-4114-b95b-dc2aab867126: # Text
+    columnSuffix: vkqkmpws
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  c5cff6ce-ee1d-41f7-86de-ef93854a7c5a: # Position
+    columnSuffix: izibqfqh
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: null
+    name: Position
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Center
+            -
+              - value
+              - center
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Right
+            -
+              - value
+              - right
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+handle: textOneColumn
+name: 'Text — One column'
+sortOrder: 2

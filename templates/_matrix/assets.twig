@@ -1,0 +1,24 @@
+{% set assetLength = item.asset | length %}
+{% set classes = '' %}
+{% set assetClass = '' %}
+{% if assetLength == 1 %}
+    {% set assetClass = 'lg:text-lg' %}
+{% endif %}
+{% if assetLength == 2 %}
+    {% set classes = ' lg:col-span-6' %}
+    {% set assetClass = 'lg:text-lg' %}
+{% endif %}
+{% if assetLength == 3 %}
+    {% set classes = ' lg:col-span-4' %}
+{% endif %}
+{% if assetLength == 4 %}
+    {% set classes = ' lg:col-span-3' %}
+{% endif %}
+
+<div class="grid grid-cols-12 pt{{ item.spaceAbove }} pb{{ item.spaceBelow }}">
+    {% for asset in item.asset %}
+        <div class="col-span-12 {{ classes }}">
+            {% include '_components/asset' %}
+        </div>
+    {% endfor %}
+</div>

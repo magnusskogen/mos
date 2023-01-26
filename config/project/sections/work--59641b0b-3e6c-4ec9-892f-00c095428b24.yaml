@@ -1,0 +1,15 @@
+defaultPlacement: beginning
+enableVersioning: true
+handle: work
+name: Work
+propagationMethod: all
+siteSettings:
+  c837520c-7804-43ac-a027-eeef6e0f2940: # MOS
+    enabledByDefault: true
+    hasUrls: true
+    template: _entry
+    uriFormat: 'work/{slug}'
+structure:
+  maxLevels: null
+  uid: dc8cff3f-4a1b-4c8b-b686-ae5302899fba
+type: structure

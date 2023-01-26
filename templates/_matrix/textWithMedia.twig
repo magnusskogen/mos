@@ -1,0 +1,52 @@
+{% set textPosition = item.textPosition %}
+{% set size = item.size %}
+{% set position = item.position %}
+{% if position == 'left' %}
+    {% set imgClasses = 'lg:col-span-5 lg:col-start-1' %}
+    {% set textClasses = 'lg:col-span-6 lg:col-start-7' %}
+{% else %}
+    {% set imgClasses = '' %}
+    {% set textClasses = '' %}
+{% endif %}
+
+{% set text %}
+    {% if item.heading | length %}<div class="uppercase mb-1">{{ item.heading }}</div>{% endif %}
+    <div class="wysiwyg">
+        {{ item.text }}
+        {% if item.table | length %}
+            <div class="grid grid-cols-3 grid-sm {{ item.text | length ? 'pt' }}">
+                {% for row in item.table %}
+                    <div class="col-span-1">{{ row.column1 }}</div>
+                    <div class="col-span-2">{{ row.column2 }}</div>
+                {% endfor %}
+                
+            </div>
+        {% endif %}
+    </div>
+{% endset %}
+{% set asset %}
+    {% include '_components/asset' with { asset: item.asset.one } %}
+{% endset %}
+
+<div class="grid grid-cols-12 pt{{ item.spaceAbove }} pb{{ item.spaceBelow }}">
+
+    {% if position == 'left' %}
+        <div class="col-span-12 lg:col-span-5 lg:col-start-1">
+            {{ asset }}
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 lg:col-start-7 text-{{ size }} flex flex-col justify-{{ textPosition }}">
+            {{ text }}
+        </div>
+    {% else %}
+
+        <div class="col-span-12 lg:col-span-6 lg:col-start-1 text-{{ size }} flex flex-col justify-{{ textPosition }}">
+            {{ text }}
+        </div>
+
+        <div class="col-span-12 lg:col-span-5 lg:col-start-8">
+            {{ asset }}
+        </div>
+
+    {% endif %}
+</div>

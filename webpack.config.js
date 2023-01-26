@@ -7,4 +7,12 @@ module.exports = {
       filename: 'scripts.js',
       path: path.resolve(__dirname, 'web/assets'),
     },
+    module: {
+      rules: [
+        {
+          test: /\.css$/i,
+          use: ["style-loader", "css-loader"],
+        },
+      ]
+    }
 };

@@ -1,0 +1,19 @@
+columnSuffix: oqvcezdl
+contentColumnType: text
+fieldGroup: 12cc6622-ac89-4a7b-a6d8-10d1f01b9c38 # Common
+handle: caption
+instructions: null
+name: Caption
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

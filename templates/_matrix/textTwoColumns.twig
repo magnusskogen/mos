@@ -1,0 +1,38 @@
+<div class="grid grid-cols-12 pt{{ item.spaceAbove }} pb{{ item.spaceBelow }}">
+
+    {% if item.additionalTable | length %}
+        <div class="col-span-12 lg:col-span-6 text-md lg:text-{{ item.size }}">
+            <div class="grid grid-cols-3 grid-sm">
+                {% for row in item.table %}
+                    <div class="col-span-1">{{ row.column1 }}</div>
+                    <div class="col-span-2">{{ row.column2 }}</div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="col-span-12 lg:col-span-6 text-md lg:text-{{ item.size }} -mt-2 lg:-mt-0">
+            <div class="grid grid-cols-3 grid-sm">
+                {% for row in item.additionalTable %}
+                    <div class="col-span-1">{{ row.column1 }}</div>
+                    <div class="col-span-2">{{ row.column2 }}</div>
+                {% endfor %}
+            </div>
+        </div>
+    {% else %}
+        <div class="col-span-12 lg:col-span-7 lg:col-start-6 text-md pb-lg lg:text-{{ item.size }} lg:order-2">
+            {% if item.heading | length %}<div class="uppercase mb-1">{{ item.heading }}</div>{% endif %}
+            <div class="wysiwyg">
+                {{ item.text }}
+            </div>
+        </div>
+        <div class="col-span-12 lg:col-span-4 lg:col-start-1 text-sm lg:text-md lg:order-1">
+            <div class="grid grid-cols-4 row-gap-0">
+                {% for row in item.table %}
+                    <div class="col-span-1">{{ row.column1 }}</div>
+                    <div class="col-span-3">{{ row.column2 }}</div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+</div>
+        

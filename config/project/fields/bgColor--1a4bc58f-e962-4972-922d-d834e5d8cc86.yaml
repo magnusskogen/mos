@@ -1,0 +1,14 @@
+columnSuffix: qyecmbbr
+contentColumnType: text
+fieldGroup: 12cc6622-ac89-4a7b-a6d8-10d1f01b9c38 # Common
+handle: bgColor
+instructions: null
+name: 'Background color'
+searchable: false
+settings:
+  default: null
+  palette: MOS
+  useConfigFile: true
+translationKeyFormat: null
+translationMethod: none
+type: percipiolondon\colourswatches\fields\ColourSwatches

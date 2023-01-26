@@ -1,0 +1,90 @@
+fieldLayouts:
+  ae6e293a-77ec-46d5-8aa1-a04339a8ecfd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: __blank__
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 5c93d718-c31f-4de6-b917-fcd2a2e2b184
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7bc86207-b865-4464-9b97-2b5850316dff # Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1c4e621f-8b30-456a-be8a-b659d4e870d2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 24a3af64-816c-4e20-bef4-790040774f5c # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a6ad6b94-73ce-42f0-9fce-974e43d85ad8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: fb644a6a-7d4c-4a05-a4a9-ae11e3b50504
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 344f5957-23a4-49f9-b012-ffcbf5af5601
+        userCondition: null
+fs: uploads
+handle: uploads
+name: Uploads
+sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

@@ -1,0 +1,7 @@
+<div class="{{ classes is defined ? classes }} bg-medium-beige{{ caption is defined and caption ? ' mb-2' }}"></div>
+{% if caption is defined and caption %}
+    <div class="grid grid-cols-2 pb">
+        <div class="text-sm {{ caption }}">Project Name</div>
+        <div class="text-sm {{ caption }}">(Type of project)</div>
+    </div>
+{% endif %}

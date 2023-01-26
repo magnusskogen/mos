@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: employees
+name: Employees
+propagationMethod: all
+siteSettings:
+  c837520c-7804-43ac-a027-eeef6e0f2940: # MOS
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+structure:
+  maxLevels: null
+  uid: 214faea8-5cc8-48db-98fb-e5c23c8c6d77
+type: structure

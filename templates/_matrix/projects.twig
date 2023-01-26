@@ -1,0 +1,9 @@
+<div class="grid grid-cols-12 text-lg pt{{ item.spaceAbove }} pb{{ item.spaceBelow }}">
+    {% for item in item.projects %}
+        <div class="col-span-12 lg:col-span-6">
+            <a href="#" class="group block relative js-hover-img">
+                {% include '_components/asset' with { assetClass: 'lg:text-md', asset: item.mainAsset.one, title: item.title, caption: item.caption } %}            
+            </a>
+        </div>
+    {% endfor %}
+</div>

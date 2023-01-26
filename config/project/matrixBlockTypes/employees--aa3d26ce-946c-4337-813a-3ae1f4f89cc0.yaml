@@ -1,0 +1,177 @@
+field: a1ec3624-bc4f-47d1-857a-94c9ff8a8e7f # Content
+fieldLayouts:
+  4e856d14-3252-4748-a0e4-b4938e8b1fe0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 5f92a092-8df9-4ca7-8182-fd92e0286694 # Employees
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bdc911f7-3913-483a-9f8a-0b50814b641b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 87f18b98-4dea-471f-bf04-5bdf68ddb4f7 # Space above
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a006f7a9-0154-45f5-82db-a98a91f4685a
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 5d5b7545-4043-4e21-b147-8dbeb1e9f814 # Space below
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e11b586b-3904-41e4-bfea-ccdcc8d9f233
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: 97f70ecb-8aea-4cd6-9a1c-4b1d094953cb
+        userCondition: null
+fields:
+  5d5b7545-4043-4e21-b147-8dbeb1e9f814: # Space below
+    columnSuffix: jthtseiw
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceBelow
+    instructions: null
+    name: 'Space below'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  5f92a092-8df9-4ca7-8182-fd92e0286694: # Employees
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: employees
+    instructions: null
+    name: Employees
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: 'Add employees'
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:e247b577-0042-4950-bbbf-3a779a1d40ae' # Employees
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  87f18b98-4dea-471f-bf04-5bdf68ddb4f7: # Space above
+    columnSuffix: dzoodwuq
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceAbove
+    instructions: null
+    name: 'Space above'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+handle: employees
+name: employees
+sortOrder: 7

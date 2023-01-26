@@ -1,0 +1,58 @@
+columnSuffix: gtzjzdqb
+contentColumnType: text
+fieldGroup: 12cc6622-ac89-4a7b-a6d8-10d1f01b9c38 # Common
+handle: table
+instructions: null
+name: Table
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columnType: text
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Column 1'
+            -
+              - handle
+              - column1
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Column 2'
+            -
+              - handle
+              - column2
+            -
+              - width
+              - ''
+            -
+              - type
+              - singleline
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col2
+          - ''
+  maxRows: null
+  minRows: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

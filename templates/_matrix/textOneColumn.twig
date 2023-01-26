@@ -1,0 +1,14 @@
+{% set classes = 'lg:col-span-6 lg:col-start-1' %}
+{% if item.position == 'center' %}
+    {% set classes = 'lg:col-span-8 lg:col-start-3' %}
+{% elseif item.position == 'right' %}
+    {% set classes = 'lg:col-span-6 lg:col-start-7' %}    
+{% endif %}
+<div class="grid grid-cols-12 pt{{ item.spaceAbove }} pb{{ item.spaceBelow }}">
+    <div class="col-span-12 {{ classes }} text-md lg:text-{{ item.size }}">
+        {% if item.heading | length %}<div class="uppercase mb-1">{{ item.heading }}</div>{% endif %}
+        <div class="wysiwyg">
+            {{ item.text }}
+        </div>
+    </div>
+</div>

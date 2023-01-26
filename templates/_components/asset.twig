@@ -1,0 +1,16 @@
+{% set title = title is defined ? title : asset.assetName %}
+{% set caption = caption is defined ? caption : asset.caption %}
+
+<div class="js-hover-img-container bg-medium-beige{{ title | length or caption | length ? ' mb-2' }}">
+    {% if asset.kind == 'video' %}
+        <video src="{{ asset.getUrl() }}" loop autoplay muted playsinline>
+    {% else %}
+        <img src="{{ asset.getUrl() }}" width="{{ asset.width }}" height="{{ asset.height }}" class="object-cover h-full w-full">
+    {% endif %}
+</div>
+{% if title | length or caption | length %}
+    <div class="grid grid-cols-2 pb">
+        <div class="text-sm {{ assetClass is defined ? assetClass }}">{{ title }}</div>
+        <div class="text-sm {{ assetClass is defined ? assetClass }}">{{ caption }}</div>
+    </div>
+{% endif %}

@@ -1,0 +1,73 @@
+{% set textPosition = item.textPosition %}
+{% set size = item.size %}
+{% set position = item.position %}
+
+
+{% set text %}
+    {% if item.heading | length %}<div class="uppercase mb-1">{{ item.heading }}</div>{% endif %}
+    <div class="wysiwyg">
+        {{ item.text }}
+        {% if item.table | length %}
+            <div class="grid grid-cols-3 grid-sm {{ item.text | length ? 'pt' }}">
+                {% for row in item.table %}
+                    <div class="col-span-1">{{ row.column1 }}</div>
+                    <div class="col-span-2">{{ row.column2 }}</div>
+                {% endfor %}
+                
+            </div>
+        {% endif %}
+    </div>
+{% endset %}
+{% set marquee %}
+    
+    
+    <div class="text-sm aspect-[4/5]" style="background-color: {{ item.marqueeBgColor.color[0].color }}">
+
+    <div class="flex h-full">
+        <div class="pl pt">{{ item.marqueeTitle }}</div>
+        <div class="swiper pl h-full">
+            <div class="swiper-wrapper pl">
+                {% set marquee = item.marqueeText %}
+                {% for word in marquee %}
+                    <div class="swiper-slide">{{ word.word }}</div>
+                {% endfor %}    
+                {% for word in marquee %}
+                    <div class="swiper-slide">{{ word.word }}</div>
+                {% endfor %}    
+                {% for word in marquee %}
+                    <div class="swiper-slide">{{ word.word }}</div>
+                {% endfor %}                
+            </div>
+        </div>        
+    </div>
+
+</div>
+
+
+
+{% endset %}
+
+<div class="grid grid-cols-12 pt{{ item.spaceAbove }} pb{{ item.spaceBelow }}">
+
+    {% if position == 'left' %}
+        <div class="col-span-12 lg:col-span-3">
+            {{ marquee }}
+        </div>
+
+        <div class="col-span-12 lg:col-span-8 lg:col-start-5 text-{{ size }}">
+            {{ text }}
+        </div>
+    {% else %}
+
+        <div class="col-span-12 lg:col-span-8 lg:col-start-1 text-{{ size }}">
+            {{ text }}
+        </div>
+
+        <div class="col-span-12 lg:col-span-3 lg:col-start-10">
+            {{ marquee }}
+        </div>
+
+    {% endif %}
+</div>
+
+

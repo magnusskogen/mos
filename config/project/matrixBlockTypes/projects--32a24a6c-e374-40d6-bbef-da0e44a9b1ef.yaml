@@ -1,0 +1,177 @@
+field: a1ec3624-bc4f-47d1-857a-94c9ff8a8e7f # Content
+fieldLayouts:
+  a7904957-b5ad-4ecc-80b0-4127cd6f5beb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: e3d2762c-c3e9-410f-b76b-030288c5c744 # Projects
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3b667613-1278-43b5-91d2-f2eecc65d86d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ea850952-fced-4d31-a96a-4d52453e95c1 # Space above
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 99da221c-e529-4f25-9022-26ee7fdbf4f5
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: dc6e7a84-7e44-477a-8f4f-b7d5cc4718b1 # Space below
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c473d041-4ca6-4054-ba2d-112f0d2f25f1
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: 7d54c7fa-c99a-4b53-a11b-ac74d923b4ae
+        userCondition: null
+fields:
+  dc6e7a84-7e44-477a-8f4f-b7d5cc4718b1: # Space below
+    columnSuffix: zoldhmps
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceBelow
+    instructions: null
+    name: 'Space below'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  e3d2762c-c3e9-410f-b76b-030288c5c744: # Projects
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: projects
+    instructions: null
+    name: Projects
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: 2
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: 'Add project'
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:59641b0b-3e6c-4ec9-892f-00c095428b24' # Work
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  ea850952-fced-4d31-a96a-4d52453e95c1: # Space above
+    columnSuffix: lhzmceae
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceAbove
+    instructions: null
+    name: 'Space above'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+handle: projects
+name: Projects
+sortOrder: 6

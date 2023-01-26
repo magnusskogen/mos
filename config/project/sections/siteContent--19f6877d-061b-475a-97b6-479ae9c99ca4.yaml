@@ -1,0 +1,15 @@
+defaultPlacement: beginning
+enableVersioning: true
+handle: siteContent
+name: Content
+propagationMethod: all
+siteSettings:
+  c837520c-7804-43ac-a027-eeef6e0f2940: # MOS
+    enabledByDefault: true
+    hasUrls: true
+    template: _entry
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: ed63cbce-0b56-4752-950a-fc3e9b91078c
+type: structure

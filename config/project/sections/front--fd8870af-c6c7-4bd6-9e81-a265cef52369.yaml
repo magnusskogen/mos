@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: front
+name: Homepage
+propagationMethod: all
+siteSettings:
+  c837520c-7804-43ac-a027-eeef6e0f2940: # MOS
+    enabledByDefault: true
+    hasUrls: true
+    template: _entry
+    uriFormat: __home__
+type: single

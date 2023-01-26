@@ -1,0 +1,407 @@
+field: a1ec3624-bc4f-47d1-857a-94c9ff8a8e7f # Content
+fieldLayouts:
+  a45f40f4-0d74-4955-b625-503d3a0df4ac:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 51c93896-8bcd-4de8-b8aa-858eb0ce8c4e # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d196ad99-63ce-4998-af62-ba40327d5425
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 958f85a1-fd83-46e3-94fe-6859ebbca3cc # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 338b8f88-cf01-4c9e-8104-4542e921f1c5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5185dcbc-35f8-4306-8256-e0279fb9c2f7 # Text size
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 676f04d1-a42b-4da4-a24b-5dbff8af0bfb
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 2bef46e1-8a80-42ff-acfb-70b6b982e238 # Marquee position
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 20d824f6-47e0-4866-ae9c-44afa89065e3
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 5fba8495-8195-4648-97fc-fdb9259069cf # Marquee title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c2aa57e7-e68f-46f8-b475-f57690d0e5ed
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8c7f7396-6182-407a-81bc-76018c96672f # Marquee text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f0d06023-aead-4e1e-a3b4-d99be29d4e54
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4bd8b39f-567c-4709-ac0c-a42ae50719b5 # Accordion background color
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9236218b-ee58-4c1f-81ae-e0b629a77f2f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 85ff65f6-38db-4f1d-92fc-b2cf8c0b2b41 # Space above
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 391f7426-6962-4e34-b392-d38807357a44
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 30e19d36-2f23-4832-9211-368d98c99186 # Space below
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e7ba531e-17ba-46d0-b950-5518ae015abb
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: 9e5a8ef5-5284-47de-9c5d-e77480b6e5be
+        userCondition: null
+fields:
+  2bef46e1-8a80-42ff-acfb-70b6b982e238: # Marquee position
+    columnSuffix: tkdciaac
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: null
+    name: 'Marquee position'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Right
+            -
+              - value
+              - right
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  4bd8b39f-567c-4709-ac0c-a42ae50719b5: # Accordion background color
+    columnSuffix: slmildxd
+    contentColumnType: text
+    fieldGroup: null
+    handle: marqueeBgColor
+    instructions: null
+    name: 'Accordion background color'
+    searchable: false
+    settings:
+      default: null
+      palette: MOS
+      useConfigFile: true
+    translationKeyFormat: null
+    translationMethod: none
+    type: percipiolondon\colourswatches\fields\ColourSwatches
+  5fba8495-8195-4648-97fc-fdb9259069cf: # Marquee title
+    columnSuffix: myiirqmb
+    contentColumnType: text
+    fieldGroup: null
+    handle: marqueeTitle
+    instructions: null
+    name: 'Marquee title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  8c7f7396-6182-407a-81bc-76018c96672f: # Marquee text
+    columnSuffix: jjwjnrme
+    contentColumnType: text
+    fieldGroup: null
+    handle: marqueeText
+    instructions: null
+    name: 'Marquee words'
+    searchable: false
+    settings:
+      addRowLabel: 'Add a row'
+      columnType: text
+      columns:
+        __assoc__:
+          -
+            - col1
+            -
+              __assoc__:
+                -
+                  - heading
+                  - Word
+                -
+                  - handle
+                  - word
+                -
+                  - width
+                  - ''
+                -
+                  - type
+                  - singleline
+      defaults:
+        -
+          __assoc__:
+            -
+              - col1
+              - ''
+      maxRows: null
+      minRows: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Table
+  30e19d36-2f23-4832-9211-368d98c99186: # Space below
+    columnSuffix: wqpdodcp
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceBelow
+    instructions: null
+    name: 'Space below'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  51c93896-8bcd-4de8-b8aa-858eb0ce8c4e: # Text
+    columnSuffix: nfxuyicn
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: ''
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  85ff65f6-38db-4f1d-92fc-b2cf8c0b2b41: # Space above
+    columnSuffix: qszekdho
+    contentColumnType: string
+    fieldGroup: null
+    handle: spaceAbove
+    instructions: null
+    name: 'Space above'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - '-lg'
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Normal
+            -
+              - value
+              - ''
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - None
+            -
+              - value
+              - '-0'
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+  958f85a1-fd83-46e3-94fe-6859ebbca3cc: # Heading
+    columnSuffix: gqsjhlma
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5185dcbc-35f8-4306-8256-e0279fb9c2f7: # Text size
+    columnSuffix: fnqtvisw
+    contentColumnType: string
+    fieldGroup: null
+    handle: size
+    instructions: null
+    name: 'Text size'
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - lg
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - md
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\RadioButtons
+handle: textWithMarquee
+name: 'Text with marquee'
+sortOrder: 5
